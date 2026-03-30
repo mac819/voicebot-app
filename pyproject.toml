@@ -1,0 +1,24 @@
+[project]
+name = "voicebot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.13.0",
+    "bitsandbytes>=0.49.2",
+    "ipykernel>=7.2.0",
+    "ipywidgets>=8.1.8",
+    "langchain>=1.2.13",
+    "langchain-huggingface>=1.2.1",
+    "mistral-common>=1.10.0",
+    "notebook>=7.5.5",
+    "outlines>=1.2.12",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.55.0",
+    "torch>=2.11.0",
+    "torchaudio>=2.11.0",
+    "torchvision>=0.26.0",
+    "tqdm>=4.67.3",
+    "transformers>=5.4.0",
+]
